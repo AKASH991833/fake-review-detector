@@ -1,0 +1,9 @@
+/* fake-review-detector specifics */
+.sig-list{display:flex;flex-direction:column;gap:14px}
+.sig-head{display:flex;justify-content:space-between;font-size:13.5px;font-weight:500;margin-bottom:5px}
+.sig-bar{height:8px;border-radius:99px;background:var(--track,#e8eaf0);overflow:hidden}
+.sig-fill{display:block;height:100%;border-radius:99px;transition:width .5s ease}
+.sig-fill.bad{background:var(--bad)}.sig-fill.ok{background:var(--ok)}.sig-fill.warn{background:#d97706}
+.sig-note{font-size:12px;color:var(--ink-3);margin-top:4px}
+.sel{padding:11px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:14px}
+.sel:focus{outline:2px solid var(--accent-ring);border-color:var(--accent)}
